@@ -1,0 +1,52 @@
+.title{
+    box-shadow:0px 0px 5px;
+    padding:0.8em;
+}
+.cardd{
+    display:flex;
+    justify-content: center;
+    gap:1.5em;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+.card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:380px;
+    border-radius:10px;
+    flex-direction: column;
+padding:0.5em;
+font-family:poppins;
+    box-shadow:0px 0px 5px;
+    transition: 0.3s ease;
+}
+.card:hover{
+    background:gray;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.search{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1em;
+    font-family:'poppins';
+}
+input[type='text']{
+    font-family:'hammersmith one';
+padding:0.5em;
+width:450px;
+outline:none;
+border:2px solid skyblue;
+
+}
+button{
+    width:100px;
+    font-family:'hammersmith one';
+    padding:0.5em;
+}

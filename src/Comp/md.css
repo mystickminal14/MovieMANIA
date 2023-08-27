@@ -1,0 +1,24 @@
+.classs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:2em;
+   
+}
+.img2{
+    width:300px;
+    height:300px;
+
+}
+.img2 img {
+    width:270px;
+    height:300px;
+    object-fit: contain;  
+}
+.clo{
+    font-family:'hammersmith one';
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
